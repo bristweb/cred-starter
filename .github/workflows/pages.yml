@@ -1,7 +1,7 @@
-# Optional: publish the site with GitHub Pages instead of Cloudflare Pages.
-# In the repo, Settings → Pages → Source: GitHub Actions, then run this workflow (Actions tab → Run workflow).
-# GitHub Pages has no rewrites (_redirects is ignored): use the real paths, e.g. https://<user>.github.io/<repo>/site/
-# and https://<user>.github.io/<repo>/package/assets/js/cred.js. The bare /<repo>/ shows 404.html (no root page; Cloudflare serves site/ at / instead).
+# Publish with GitHub Pages (same export as Cloudflare Pages).
+# Settings → Pages → Source: GitHub Actions, then Actions → Deploy to GitHub Pages → Run workflow.
+# GitHub Pages has no rewrites (_redirects is ignored): use real paths such as
+# https://YOUR-USER.github.io/YOUR-REPO/ and https://YOUR-USER.github.io/YOUR-REPO/package/assets/js/cred.js.
 name: Deploy to GitHub Pages
 on:
   workflow_dispatch:

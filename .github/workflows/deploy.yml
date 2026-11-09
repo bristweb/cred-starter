@@ -1,3 +1,4 @@
+# Publish with Cloudflare Pages (same export as GitHub Pages).
 name: Deploy to Cloudflare Pages
 on:
   push:
